@@ -25,11 +25,11 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item"><a href="#" style="--i:1;" class="nav-link active">me.Home()</a></li>
-                            <li class="nav-item"><a href="#" style="--i:2;" class="nav-link">me.About()</a></li>
-                            <li class="nav-item"><a href="#" style="--i:3;" class="nav-link">me.Skills()</a></li>            
-                            <li class="nav-item"><a href="#" style="--i:4;" class="nav-link">me.Contact()</a></li>
+                        <ul class="navbar-nav ms-auto" id="navbar-nav">
+                            <li class="nav-item"><a href="#home" style="--i:1;" class="nav-link active">me.Home()</a></li>
+                            <li class="nav-item"><a href="#about" style="--i:2;" class="nav-link">me.About()</a></li>
+                            <li class="nav-item"><a href="#skills" style="--i:3;" class="nav-link">me.Skills()</a></li>            
+                            <li class="nav-item"><a href="#contact" style="--i:4;" class="nav-link">me.Contact()</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -38,7 +38,7 @@
     </div>
 </header>
 
-    <section class="home container">
+    <section id="home" class="home container">
         <div class="row align-items-center">
             <div class="col-lg-6 home-content">
                 <h3>Hello, I am</h3>
@@ -61,6 +61,75 @@
     <button class="theme-toggle" id="theme-toggle">
         <i class='bx bx-moon'></i>
     </button>
+    <section id="about" class="about container">
+        <h2>About Me</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <p>Hello there! I'm Sanyog Das, a passionate tech enthusiast with a keen interest in the fascinating worlds of Astrophysics and Computer Science. As an amateur programmer, I'm constantly pushing the boundaries of my knowledge and skills in back-end development.</p>
+                <p>This website serves as a showcase of my programming journey and the projects I've worked on. It's not just a portfolio - it's a testament to my love for coding and my commitment to continuous learning.</p>
+                <p>When I'm not immersed in lines of code, you might find me gazing at the stars, pondering the mysteries of the cosmos. My diverse interests in technology and space fuel my creativity and drive my pursuit of knowledge.</p>
+            </div>
+            <div class="col-lg-6">
+                <h3>Quick Facts:</h3>
+                <ul>
+                    <li>🎓 Student with a focus on Computer Science</li>
+                    <li>💻 Experienced in back-end development</li>
+                    <li>🔭 Enthusiast of Astrophysics</li>
+                    <li>🎮 Avid gamer in my free time</li>
+                    <li>🌟 Always excited to learn and explore new technologies</li>
+                </ul>
+                <p>Feel free to explore my projects and get in touch if you'd like to collaborate or just chat about tech, space, or anything in between!</p>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills container">
+        <h2>My Skills</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Front-end</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Back-end</h3>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Python</li>
+                    <li>c++</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Database</h3>
+                <ul>
+                    <li>MongoDb</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact container">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>

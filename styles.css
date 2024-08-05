@@ -341,7 +341,7 @@ body.dark .theme-toggle:hover {
     .home {
         padding-top: 120px;
     }
-    
+
     .home-content h1 {
         font-size: 28px;
     }
@@ -354,4 +354,17 @@ body.dark .theme-toggle:hover {
         padding: 10px 20px;
         font-size: 14px;
     }
+}
+
+.about, .skills, .contact {
+    padding: 200px 10px;
+    min-height: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1px;
+}
+
+.section-spacing {
+    margin-bottom: 1px;
 }
