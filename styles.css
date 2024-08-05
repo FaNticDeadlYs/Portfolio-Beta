@@ -357,14 +357,10 @@ body.dark .theme-toggle:hover {
 }
 
 .about, .skills, .contact {
-    padding: 200px 10px;
-    min-height: 1px;
+    padding: 200px 50px;
+    min-height: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 1px;
-}
-
-.section-spacing {
-    margin-bottom: 50px;
 }
